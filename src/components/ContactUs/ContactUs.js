@@ -3,10 +3,10 @@ import React from 'react';
 function ContactUs () {
     return (
         <div>
-            <ul>
-                <li>OFFICE HOURS</li>
+            <ul className="contact-list">
+                <li className="contact-list_office">OFFICE HOURS</li>
                 <li>MONDAY-SUNDAY 9AM - 5PM</li>
-                <li>SERVICE HOURS</li>
+                <li className="contact-list_service">SERVICE HOURS</li>
                 <li>24/7</li>
                 <li>ADDRESS</li>
                 <li>City, Bishkek</li>

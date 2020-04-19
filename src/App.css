@@ -4,7 +4,28 @@
   padding: 1rem;
 }
 
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
 
+.contact-list_office {
+  font-weight: 900;
+}
+
+.contact-list_service {
+   font-weight: 900;
+}
+
+.sell {
+  position: absolute;
+  z-index: 1;
+}
+
+.slider_1 {
+  width: 100;
+}
 
 .task.completed {
   text-decoration: line-through;

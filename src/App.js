@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Router from './Router';
-import CarouselBox from './components/CarouselBox';
+// import CarouselBox from './components/CarouselBox';
 import RouterFooter from './RouterFooter';
 
 const App = () => {
@@ -11,7 +11,7 @@ const App = () => {
       <Router />
       </div>
 
-      <CarouselBox />
+      
       
 
       <div>

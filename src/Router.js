@@ -5,6 +5,7 @@ import Todo from './components/Todo/Todo';
 import ContactUs from './components/ContactUs/ContactUs';
 import Sell from './components/Sell/Sell';
 import Gift from './components/Gift/Gift';
+import Home from './components/Home/Home';
 // import Footer from './components/Footer/Footer'
 // import Direction from './components/Direction/Direction';
 // import Partnerts from './components/Partners/Partners';
@@ -18,6 +19,7 @@ const Router = () => {
             
                 
             <NavBar />
+            <Route path="/home" component={Home}/>
             <Route path="/" exact component={()=><Todo page="LIST"/>}/>
             <Route path="/add" component={()=><Todo page="ADD"/>}/>
             <Route path="/contactus" component={ContactUs}/>

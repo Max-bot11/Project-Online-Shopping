@@ -6,6 +6,7 @@ function NavBar () {
     return(
         <div>
             <ul>
+                <li><Link to="/home">HOME</Link></li>
                 <li><Link to="/">MENU</Link></li>
                 <li><Link to="/add">CARD</Link></li>
                 <li><Link to="/contactus">CONTACT US</Link></li>
