@@ -7,7 +7,10 @@ function List(props) {
       {props.data.map((task, index) => (
         <Card
         key={task.id}
-        title={task.title}
+        firstName={task.firstName}
+        lastName={task.lastName}
+        email={task.email}
+        piece={task.piece}
         status={task.status}
         onChangeStatus={()=> props.onChangeStatus(index, task.id)}
         onDelete={()=> props.onDelete(task.id)}

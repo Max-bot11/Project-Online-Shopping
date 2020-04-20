@@ -1,4 +1,6 @@
-
+.container {
+  background-color: violet;
+}
 
 .add-task {
   padding: 1rem;
@@ -30,3 +32,4 @@
 .task.completed {
   text-decoration: line-through;
 }
+

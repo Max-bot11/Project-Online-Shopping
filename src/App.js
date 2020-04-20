@@ -6,7 +6,7 @@ import RouterFooter from './RouterFooter';
 
 const App = () => {
   return(
-    <div>
+    <div className="container">
       <div>
       <Router />
       </div>

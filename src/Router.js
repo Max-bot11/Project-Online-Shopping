@@ -20,8 +20,8 @@ const Router = () => {
                 
             <NavBar />
             <Route path="/home" component={Home}/>
-            <Route path="/" exact component={()=><Todo page="LIST"/>}/>
-            <Route path="/add" component={()=><Todo page="ADD"/>}/>
+            {/* <Route path="/" exact component={()=><Todo page="LIST"/>}/> */}
+            <Route path="/add" component={()=><Todo />}/>
             <Route path="/contactus" component={ContactUs}/>
             <Route path="/sell" component={Sell}/>
             <Route path="/gift" component={Gift}/>

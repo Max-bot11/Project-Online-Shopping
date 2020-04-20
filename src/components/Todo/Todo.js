@@ -1,7 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import List from '../List/List'; 
-import AddTask from '../AddTask/AddTask';
+import AddCard from '../AddCard/AddCard'
 
 class Todo extends React.Component {
   state = {
@@ -51,7 +51,7 @@ class Todo extends React.Component {
   render() {
     return (
       <div className="App">
-        {this.checkPage("ADD") ? <AddTask onAdd={this.handleAdd} />: null}
+        {this.checkPage("ADD") ? <AddCard onAdd={this.handleAdd} />: null}
         {this.checkPage("LIST") ? (<List 
           data={this.state.data} 
           onChangeStatus={this.handleChangeStatus} 
